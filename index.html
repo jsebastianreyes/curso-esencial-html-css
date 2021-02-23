@@ -5,55 +5,58 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>El Blog de Sebas</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <nav>
-    <details>
-      <summary>
-        Setup
-      </summary>
-      <ol>
-        <li>
-          <a href="#google-chrome">Google Chrome</a>
-        </li>
-        <li>
-          <a href="#vsc">Visual Studio Code</a>
-        </li>
-        <li>
-          <a href="#figma">Figma</a>
-        </li>
-        <li>
-          <a href="#github">GitHub</a>
-        </li>
-      </ol>
-    </details>
+  <header>
+    <nav>
+      <!--agregar js para cuando este uno abierto se cierre el otro-->
+      <details open>
+        <summary>
+          Setup
+        </summary>
+        <ol>
+          <li>
+            <a href="#google-chrome">Google Chrome</a>
+          </li>
+          <li>
+            <a href="#vsc">Visual Studio Code</a>
+          </li>
+          <li>
+            <a href="#figma">Figma</a>
+          </li>
+          <li>
+            <a href="#github">GitHub</a>
+          </li>
+        </ol>
+      </details>
 
-    <details>
-      <summary>Conceptos esenciales del Desarrollo Web</summary>
-      <ol>
-        <li>
-          <a href="#html">Qué es HTML</a>
-        </li>
-        <li>
-          <a href="#etiquetas">Etiquetas</a>
-        </li>
-        <li>
-          <a href="#dom">DOM</a>
-        </li>
-        <li>
-          <a href="#semantica">Semántica</a>
-        </li>
-        <li>
-          <a href="#atributos">Atributos</a>
-        </li>
-        <li>
-          <a href="#css">Qué es CSS</a>
-        </li>
-      </ol>
-    </details>
+      <details>
+        <summary>Conceptos esenciales del Desarrollo Web</summary>
+        <ol>
+          <li>
+            <a href="#html">Qué es HTML</a>
+          </li>
+          <li>
+            <a href="#etiquetas">Etiquetas</a>
+          </li>
+          <li>
+            <a href="#dom">DOM</a>
+          </li>
+          <li>
+            <a href="#semantica">Semántica</a>
+          </li>
+          <li>
+            <a href="#atributos">Atributos</a>
+          </li>
+          <li>
+            <a href="#css">Qué es CSS</a>
+          </li>
+        </ol>
+      </details>
+     </nav>
 
-
-  </nav>
+  </header>
   <h1>Curso esencial de HTML y CSS</h1>
   <p>Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de contenidos,
   en el nivel 2 aprenderás de componentes y en 3 sobre layouts.</p>
@@ -82,8 +85,22 @@
   <h3 id="html">Qué es HTML</h3>
   <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado
   y la estructura del contenido.</p>
-  <h3 id="etiquetas">Etiquetas</h3>
-  <p>Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada una tiene
+<pre>
+  &lt;!DOCTYPE html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Document&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
+</pre>
+
+<h3 id="etiquetas">Etiquetas</h3>
+<p>Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada una tiene
   características y usos diferentes aunque visualmente den un resultado similar.</p>
   <p>Muchas etiquetas son fácil de diferencias como los headings o las imágenes y otras diferentes como header, footer,
   section o div, aquí es donde la semántica será la respuesta y si sabemos un poco de inglés también podremos darnos una
